@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "ad27382ff4f1e929",
+    "type": "split",
+    "children": [
+      {
+        "id": "4cf5a4961f70ba11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c64d7deff591539e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b455a8dc334f5e86",
+    "type": "split",
+    "children": [
+      {
+        "id": "e78e509d89aa5011",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbe3efc497cd294e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2813eac3a28a7a73",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "04b8950d650fda24",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f8fad844c17e95b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "046cda3411430661",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca22215c4b1e0972",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e5df98730af2790c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dc2f0cc3b95d2150",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bb2738f89b30ec31",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "c64d7deff591539e",
+  "lastOpenFiles": [
+    "BitFez’s Learning to code in Python Roadmap 🛣/1 - Printing Basics/1 - Printing Basics.md",
+    "Untitled 11.png",
+    "Untitled 1 7.png",
+    "Untitled 10.png",
+    "Untitled 1 6.png",
+    "Untitled 9.png",
+    "Untitled 8.png",
+    "Untitled 3 3.png",
+    "Untitled 2 4.png",
+    "Untitled 1 5.png",
+    "Untitled 7.png",
+    "BitFez’s Learning to code in Python Roadmap 🛣/22 - writing to files.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/21 - reading from files/21 - reading from files.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/20 - 2D Arrays - Lists/20 - 2D Arrays - Lists.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/19 - Tuples.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/18 - Slicing Lists/18 - Slicing Lists.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/17 - List Functions.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/16 - Lists and iteration.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/15 - Lists-Arrays/15 - Lists-Arrays.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/14 - Functions.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/13 - Procedures/13 - Procedures.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/12 - Nested Loops 1.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/11 - While Loops.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/10 - For Loops/10 - For Loops.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/9 - Elif Statements.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/8 - If Statements/8 - If Statements.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/7 - User Input & Datatypes/7 - User Input & Datatypes.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/6.5 String functions.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/6 - String Formatting.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/5 - Re-assigning Variables/5 - Re-assigning Variables.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/4 - Variables, Casting & Concatenating/4 - Variables, Casting & Concatenating.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/3 - Math.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/2 - Printing & Escape codes.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/1.5 - Comments & Multiline Printing.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/Task Rock, Paper, Scissors, Lizard, Spock/Task Rock, Paper, Scissors, Lizard, Spock.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/21 - reading from files",
+    "BitFez’s Learning to code in Python Roadmap 🛣/20 - 2D Arrays - Lists",
+    "BitFez’s Learning to code in Python Roadmap 🛣/18 - Slicing Lists",
+    "BitFez’s Learning to code in Python Roadmap 🛣/15 - Lists-Arrays",
+    "BitFez’s Learning to code in Python Roadmap 🛣/13 - Procedures",
+    "BitFez’s Learning to code in Python Roadmap 🛣/10 - For Loops",
+    "BitFez’s Learning to code in Python Roadmap 🛣/8 - If Statements",
+    "BitFez’s Learning to code in Python Roadmap 🛣/7 - User Input & Datatypes",
+    "BitFez’s Learning to code in Python Roadmap 🛣/5 - Re-assigning Variables",
+    "BitFez’s Learning to code in Python Roadmap 🛣/4 - Variables, Casting & Concatenating"
+  ]
+}
