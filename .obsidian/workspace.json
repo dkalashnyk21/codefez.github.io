@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BitFez’s Learning to code in Python Roadmap 🛣/index.md.md",
+                "file": "BitFez’s Learning to code in Python Roadmap 🛣/BitFez’s Learning to code in Python Roadmap 🛣.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "020b4a1b1769a92d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BitFez’s Learning to code in Python Roadmap 🛣/2 - Printing & Escape codes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BitFez’s Learning to code in Python Roadmap 🛣/index.md.md",
+                "file": "BitFez’s Learning to code in Python Roadmap 🛣/2 - Printing & Escape codes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BitFez’s Learning to code in Python Roadmap 🛣/index.md.md",
+                "file": "BitFez’s Learning to code in Python Roadmap 🛣/2 - Printing & Escape codes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BitFez’s Learning to code in Python Roadmap 🛣/index.md.md"
+                "file": "BitFez’s Learning to code in Python Roadmap 🛣/2 - Printing & Escape codes.md"
               }
             }
           }
@@ -147,13 +160,14 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "cbe3efc497cd294e",
+  "active": "020b4a1b1769a92d",
   "lastOpenFiles": [
+    "code-fez.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/BitFez’s Learning to code in Python Roadmap 🛣.md",
+    "BitFez’s Learning to code in Python Roadmap 🛣/1 - Printing Basics/1 - Printing Basics.md",
     "if_statements.png",
     "bitFez.jpg",
     "Untitled 1 4.png",
-    "BitFez’s Learning to code in Python Roadmap 🛣/index.md.md",
-    "BitFez’s Learning to code in Python Roadmap 🛣/1 - Printing Basics/1 - Printing Basics.md",
     "Untitled 11.png",
     "Untitled 1 7.png",
     "Untitled 10.png",
@@ -161,7 +175,6 @@
     "Untitled 9.png",
     "Untitled 8.png",
     "Untitled 3 3.png",
-    "Untitled 2 4.png",
     "BitFez’s Learning to code in Python Roadmap 🛣/22 - writing to files.md",
     "BitFez’s Learning to code in Python Roadmap 🛣/21 - reading from files/21 - reading from files.md",
     "BitFez’s Learning to code in Python Roadmap 🛣/20 - 2D Arrays - Lists/20 - 2D Arrays - Lists.md",
