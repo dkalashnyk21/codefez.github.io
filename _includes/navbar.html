@@ -16,7 +16,16 @@
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost text-xl">{{site.url}}</a>
+    <div>
+      <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+        <a class="btn btn-ghost text-xl">
+        <div class="w-10 rounded-full">
+          <img alt="Tailwind CSS Navbar component" src="{{site.logo}}" />
+        </div>
+        {{site.url}}</a>
+      </div>
+    </div>
+    
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
