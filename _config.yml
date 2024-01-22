@@ -18,7 +18,7 @@ plugins:
 
 # jekyll-seo-tag configuration
 author: "bitfez"
-url: "/code-fez"
+url: "code-fez.github.io"
 title: "codefez"
 description: "The new home of LearnICT.it"
 twitter:
