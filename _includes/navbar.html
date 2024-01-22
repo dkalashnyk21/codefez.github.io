@@ -7,11 +7,15 @@
       <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
         {% include 'nav_items.html' %}
     </div>
-    <div class="flex">
+    <a href="/" aria-current="page" aria-label="Homepage" class="flex-0 btn btn-ghost px-2" data-svelte-h="svelte-nce89e">
+      <img src="{{site.logo}}" alt="">
+      <div class="font-title inline-flex text-lg md:text-2xl">{{site.url}}</div>
+    </a>
+    <!-- <div class="flex">
       <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
         <a class="btn btn-ghost text-xl" href="{{site.url}}">{{site.url}}</a>
       </div>
-    </div>
+    </div> -->
     
   </div>
   <div class="navbar-center hidden lg:flex">
