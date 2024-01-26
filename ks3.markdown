@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Posters for your Classroom
+<h1 class="text-center text-xl"> KS3 Teaching resources </h1>
 <br>
 
 I will be updating these soon.

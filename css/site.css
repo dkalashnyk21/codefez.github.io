@@ -1,4 +1,6 @@
-
+body {
+    padding-top: 80px;
+}
 nav {
     z-index: 1000; /* Adjust this value as needed */
     position: fixed;
