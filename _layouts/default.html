@@ -9,18 +9,19 @@
     <link rel="stylesheet" href="/css/site.css">
   </head>
   <body>
-    <div class=" md:container md:mx-auto">
+    <nav class=" md:container md:mx-auto">
       <section>
         {% include navbar.html %}
       </section>
-      <section>
-        {{ content }}
-      </section>
-    </div>
+    </nav>
+
+
+    <section>
+      {{ content }}
+    </section>
     
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}
     {% endif %}
   </body>
 </html>
-
