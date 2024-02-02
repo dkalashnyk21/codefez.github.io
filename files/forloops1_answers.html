@@ -1,0 +1,345 @@
+---
+layout: default
+---
+ 
+<div class="overflow-x-auto">
+    <table class="table table-zebra">
+      <!-- head -->
+      <thead>
+        <tr>
+          <th></th>
+          <th>Question</th>
+          <th>Answer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- row 1 -->
+        <tr>
+          <th>1</th>
+          <td>
+            <div class="mockup-code">
+                <pre>
+                    <code>
+                        for i in range(0,5):
+                            print(i)
+
+
+
+                    </code>
+                </pre>
+              </div>
+          </td>
+          <td>
+            <div class="mockup-code bg-primary text-primary-content">
+                <pre>
+                    <code>
+                        0
+                        1
+                        2
+                        3
+                        4
+                    </code>
+                </pre>
+            </div>
+            
+          </td>
+        </tr>
+       
+        <tr>
+            <th>2</th>
+            <td>
+              <div class="mockup-code">
+                  <pre>
+                      <code>
+                        for i in range(5,10):
+                            print(i)
+
+
+
+                      </code>
+                  </pre>
+                </div>
+            </td>
+            <td>
+              <div class="mockup-code bg-primary text-primary-content">
+                  <pre>
+                      <code>
+                        5
+                        6
+                        7
+                        8    
+                        9
+                      </code>
+                  </pre>
+              </div>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th>3</th>
+            <td>
+              <div class="mockup-code">
+                  <pre>
+                      <code>
+                        for i in range(0,6):
+                            print(i+1)
+
+
+
+
+                      </code>
+                  </pre>
+                </div>
+            </td>
+            <td>
+              <div class="mockup-code bg-primary text-primary-content">
+                  <pre>
+                      <code>
+                        1
+                        2
+                        3
+                        4    
+                        5 
+                        6
+                      </code>
+                  </pre>
+              </div>
+              
+            </td>
+          </tr>
+
+          <tr>
+            <th>4</th>
+            <td>
+              <div class="mockup-code">
+                  <pre>
+                      <code>
+                        for i in range(1,6):
+                            print(f"{i} x 10 = {ix10}")
+
+
+
+                      </code>
+                  </pre>
+                </div>
+            </td>
+            <td>
+              <div class="mockup-code bg-primary text-primary-content">
+                  <pre>
+                      <code>
+                        1 x 10 = 10
+                        2 x 10 = 20
+                        3 x 10 = 30
+                        4 x 10 = 40
+                        5 x 10 = 50
+                      </code>
+                  </pre>
+              </div>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th>5</th>
+            <td>
+              <div class="mockup-code">
+                  <pre>
+                      <code>
+                        text = "fez"
+                        for i in range(0, len(text)):
+                            print(i)
+                      </code>
+                  </pre>
+                </div>
+            </td>
+            <td>
+              <div class="mockup-code bg-primary text-primary-content">
+                  <pre>
+                      <code>
+                        0
+                        1
+                        2
+                      </code>
+                  </pre>
+              </div>
+              
+            </td>
+          </tr>
+
+          <tr>
+            <th>6</th>
+            <td>
+              <div class="mockup-code">
+                  <pre>
+                      <code>
+                        text = "fez"
+                        for i in range(0, len(text)):
+                            print(text[i])
+                      </code>
+                  </pre>
+                </div>
+            </td>
+            <td>
+              <div class="mockup-code bg-primary text-primary-content">
+                  <pre>
+                      <code>
+                        f
+                        e
+                        z
+                      </code>
+                  </pre>
+              </div>
+              
+            </td>
+          </tr>
+
+          <tr>
+            <th>7</th>
+            <td>
+              <div class="mockup-code">
+                  <pre>
+                      <code>
+                        text = "fez"
+                        for i in text:
+                            print(i)
+                      </code>
+                  </pre>
+                </div>
+            </td>
+            <td>
+              <div class="mockup-code bg-primary text-primary-content">
+                  <pre>
+                      <code>
+                        f
+                        e
+                        z
+                      </code>
+                  </pre>
+              </div>
+              
+            </td>
+          </tr>
+
+          <tr>
+            <th>8</th>
+            <td>
+              <div class="mockup-code">
+                  <pre>
+                      <code>
+                        text = "fez"
+                        for i in text:
+                            print(str(i)+"x")
+                      </code>
+                  </pre>
+                </div>
+            </td>
+            <td>
+              <div class="mockup-code bg-primary text-primary-content">
+                  <pre>
+                      <code>
+                        0x
+                        1x
+                        2x
+                      </code>
+                  </pre>
+              </div>
+              
+            </td>
+          </tr>
+          
+          <tr>
+            <th>9</th>
+            <td>
+              <div class="mockup-code">
+                  <pre>
+                      <code>
+                        text = "fez"
+                        for i in range(0, len(text)):
+                            print(f"letter {i+1} is {text[i]}.")
+                      </code>
+                  </pre>
+                </div>
+            </td>
+            <td>
+              <div class="mockup-code bg-primary text-primary-content">
+                  <pre>
+                      <code>
+                        letter 1 is f.
+                        letter 2 is e.
+                        letter 3 is z.
+                      </code>
+                  </pre>
+              </div>
+              
+            </td>
+          </tr>
+
+          <tr>
+            <th>10</th>
+            <td>
+              <div class="mockup-code">
+                  <pre>
+                      <code>
+                        text = "fez"
+                        letters = []
+                        for i in text:
+                            letters.append(i)
+                        print(letters)
+                      </code>
+                  </pre>
+                </div>
+            </td>
+            <td>
+              <div class="mockup-code bg-primary text-primary-content">
+                  <pre>
+                      <code>
+                        ["f", "e", "z"]
+
+
+
+                        
+                    </code>
+                  </pre>
+              </div>
+              
+            </td>
+          </tr>
+
+          <!-- 
+            <tr>
+            <th>2</th>
+            <td>
+              <div class="mockup-code">
+                  <pre>
+                      <code>
+
+                      </code>
+                  </pre>
+                </div>
+            </td>
+            <td>
+              <div class="mockup-code bg-primary text-primary-content">
+                  <pre>
+                      <code>
+                          
+                        
+                      </code>
+                  </pre>
+              </div>
+              
+            </td>
+          </tr>
+        
+           -->
+      </tbody>
+    </table>
+  </div>
+
+
+
+<pre>
+    <code>
+        
+    </code>
+</pre>
