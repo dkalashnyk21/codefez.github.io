@@ -8,11 +8,12 @@ layout: default
         <div class="basis-7/12 mr-1 mb-1">
                 <pre>
                     <code>
-                        for i in range(0,5):
-                            print(i)
-
-
-
+    sum = 0 
+    text = "fez"
+    nums = [1,2,3]
+    for i in range(0, len(text)):
+        sum = sum + nums[i]
+    print(sum)
                     </code>
                 </pre>
         </div>
@@ -20,11 +21,7 @@ layout: default
             <div class="mockup-code">
                 <pre>
                     <code>
-                        0
-                        1
-                        2
-                        3
-                        4
+    6
                     </code>
                 </pre>
             </div>
@@ -36,11 +33,11 @@ layout: default
             
                 <pre>
                     <code>
-                        for i in range(5,10):
-                            print(i)
-
-
-
+    sum = 0
+    text = "fez"
+    for letter in range(0, len(text)):
+        sum += letter
+    print(sum)
                     </code>
                 </pre>
             
@@ -49,11 +46,7 @@ layout: default
             <div class="mockup-code">
                 <pre>
                     <code>
-                        5
-                        6
-                        7
-                        8    
-                        9
+    3
                     </code>
                 </pre>
             </div>
@@ -66,11 +59,11 @@ layout: default
             
                 <pre>
                     <code>
-                        for i in range(0,6):
-                            print(i+1)
-
-
-
+    word = ""
+    myList = ["c","o","d","e","f","e","z"]
+    for letter in myList:
+        word += letter
+    print(word)
                     </code>
                 </pre>
             
@@ -79,12 +72,7 @@ layout: default
             <div class="mockup-code">
                 <pre>
                     <code>
-                        1
-                        2
-                        3
-                        4    
-                        5 
-                        6
+    codefez
                     </code>
                 </pre>
             </div>
@@ -96,11 +84,11 @@ layout: default
         <div class="basis-7/12 mr-1 mb-1">
                 <pre>
                     <code>
-                        for i in range(1,6):
-                            print(f"{i} x 10 = {ix10}")
-
-
-
+    word = ""
+    myList = ["c","o","d","e","f","e","z"]
+    for i in range(0,4):
+        word += str(i)
+    print(word)
                     </code>
                 </pre>
         </div>
@@ -108,11 +96,7 @@ layout: default
             <div class="mockup-code">
                 <pre>
                     <code>
-                        1 x 10 = 10
-                        2 x 10 = 20
-                        3 x 10 = 30
-                        4 x 10 = 40
-                        5 x 10 = 50
+    0123
                     </code>
                 </pre>
             </div>
@@ -124,9 +108,11 @@ layout: default
         <div class="basis-7/12 mr-1 mb-1">
                 <pre>
                     <code>
-                        text = "fez"
-                        for i in range(0, len(text)):
-                            print(i)
+    word = ""
+    myList = ["c","o","d","e","f","e","z"]
+    for i in range(0,4):
+        word += myList[i]
+    print(word)
                     </code>
                 </pre>
         </div>
@@ -134,9 +120,7 @@ layout: default
             <div class="mockup-code">
                 <pre>
                     <code>
-                       0
-                       1
-                       2
+    code
                     </code>
                 </pre>
             </div>
@@ -148,9 +132,11 @@ layout: default
         <div class="basis-7/12 mr-1 mb-1">
                 <pre>
                     <code>
-                        text = "fez"
-                        for i in range(0, len(text)):
-                            print(text[i])
+    text = "hweolrllod"
+    word1, word2 = "", ""
+    for i in range(0, len(text), 2):
+        word1 = word1 + text[i]
+    print(f"word1: {word1}, word2: {word2} ")
                     </code>
                 </pre>
         </div>
@@ -158,9 +144,7 @@ layout: default
             <div class="mockup-code">
                 <pre>
                     <code>
-                        f
-                        e
-                        z
+    word1: hello, word2:
                     </code>
                 </pre>
             </div>
@@ -172,9 +156,13 @@ layout: default
         <div class="basis-7/12 mr-1 mb-1">
                 <pre>
                     <code>
-                        text = "fez"
-                        for i in text:
-                            print(i)
+    text = "hweolrllod"
+    word1, word2 = "", ""
+    for i in range(0, len(text), 2):
+        word1 = word1 + text[i]
+        for j in range(1, len(text), 2):
+            word2 = word2 + text[i]
+    print(f"word1: {word1}, word2: {word}")"
                     </code>
                 </pre>
         </div>
@@ -182,9 +170,7 @@ layout: default
             <div class="mockup-code">
                 <pre>
                     <code>
-                        f
-                        e
-                        z
+    word1: hello, word2: worldworldworldworldworld
                     </code>
                 </pre>
             </div>
@@ -196,9 +182,13 @@ layout: default
         <div class="basis-7/12 mr-1 mb-1">
                 <pre>
                     <code>
-                        text = "fez"
-                        for i in text:
-                            print(str(i)+"x")
+    text = "hweolrllod"
+    word1, word2 = "", ""
+    for i in range(0, len(text), 2):
+        word1 = word1 + text[i]
+    for j in range(1, len(text), 2):
+        word2 = word2 + text[j]
+    print(f"word1: {word1}, word2: {word2} ")
                     </code>
                 </pre>
         </div>
@@ -206,9 +196,7 @@ layout: default
             <div class="mockup-code">
                 <pre>
                     <code>
-                        0x
-                        1x
-                        2x
+    word1: hello, word2: world
                     </code>
                 </pre>
             </div>
@@ -220,9 +208,12 @@ layout: default
         <div class="basis-7/12 mr-1 mb-1">
                 <pre>
                     <code>
-                        text = "fez"
-                        for i in range(0, len(text)):
-                            print(f"letter {i+1} is {text[i]}.")
+    word = ""
+    myList = [1,2,3,4,5,6,7,8,9,10]
+    for i in range(0, len(myList)):
+        word = word + str(myList[i])
+        sum += myList[i]
+    print(f"word: {word}") 
                     </code>
                 </pre>
         </div>
@@ -230,9 +221,7 @@ layout: default
             <div class="mockup-code">
                 <pre>
                     <code>
-                        letter 1 is f.
-                        letter 2 is e.
-                        letter 3 is z.
+    word: 12345678910
                     </code>
                 </pre>
             </div>
@@ -244,11 +233,12 @@ layout: default
         <div class="basis-7/12 mr-1 mb-1">
                 <pre>
                     <code>
-                        text = "fez"
-                        letters = []
-                        for i in text:
-                            letters.append(i)
-                        print(letters)
+    word, sum = "",0
+    myList = [1,2,3,4,5,6,7,8,9,10]
+    for i in range(0, len(myList)):
+        word = word + str(myList[i])
+        sum += myList[i]
+    print(f"word: {word}, sum: {sum}") 
                     </code>
                 </pre>
         </div>
@@ -256,11 +246,7 @@ layout: default
             <div class="mockup-code">
                 <pre>
                     <code>
-                        ["f", "e", "z"]
-
-
-
-
+    word: 12345678910, sum: 55
                     </code>
                 </pre>
             </div>
@@ -295,11 +281,3 @@ layout: default
            -->
       
 </div>
-
-
-
-<pre>
-    <code>
-        
-    </code>
-</pre>
