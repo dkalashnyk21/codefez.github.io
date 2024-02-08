@@ -9,3 +9,18 @@ nav {
     right: 0;
     height: 50px; /* Adjust this value to match your navbar height */
 }
+
+@media (max-width: 768px) {
+  .timeline-end {
+    display: flex;
+    flex-wrap: wrap;
+  } 
+  .timeline-start {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse; /* Ensure tasks are above answers */
+  }
+  .timeline-box {
+    margin-bottom: 1rem;
+  }
+}
