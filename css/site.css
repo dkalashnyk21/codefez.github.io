@@ -23,4 +23,8 @@ nav {
   .timeline-box {
     margin-bottom: 1rem;
   }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
