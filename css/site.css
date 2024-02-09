@@ -23,8 +23,13 @@ nav {
   .timeline-box {
     margin-bottom: 1rem;
   }
+  .grid {
+    width: 100%;  /* Make cards take up full width on mobile */
+  }
+  .divider {
+    display: none;  /* Hide the divider on mobile */
+  }
   .card {
-    display: flex;
-    flex-wrap: wrap;
+    flex-grow: 0; /* No horizontal growth on mobile */
   }
 }
