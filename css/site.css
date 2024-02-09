@@ -25,6 +25,7 @@ nav {
   }
   .grid {
     width: 100%;  /* Make cards take up full width on mobile */
+    grid-auto-rows: minmax(auto, 1fr); /* Sets card height to at least 1fr */
   }
   .divider {
     display: none;  /* Hide the divider on mobile */
