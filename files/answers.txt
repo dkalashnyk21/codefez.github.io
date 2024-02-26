@@ -1,0 +1,22 @@
+## While loops 1
+
+### q1
+tries = 3
+while tries > 0:
+  guess=input("guess my name")
+  tries = tries -1
+print("game over!")
+
+<pre>
+ <code id="htmlViewer" style="color:rgb(231, 228, 235); font-weight:400;display:block;padding: .5em;">tries = <span style="color:rgb(197, 254, 0); font-weight:400;">3</span>
+<span style="color:rgb(23, 252, 149); font-weight:700;">while</span> tries &gt; <span style="color:rgb(197, 254, 0); font-weight:400;">0</span>:
+  guess=<span style="color:rgb(255, 200, 0); font-weight:400;">input</span>(<span style="color:rgb(56, 192, 255); font-weight:400;">&quot;guess my name&quot;</span>)
+  tries = tries <span style="color:rgb(197, 254, 0); font-weight:400;">-1</span>
+<span style="color:rgb(255, 200, 0); font-weight:400;">print</span>(<span style="color:rgb(56, 192, 255); font-weight:400;">&quot;game over!&quot;</span>)</code></pre>
+
+### Ans
+guess my name Aaron
+guess my name Ali
+guess my name Adam
+game over!
+
