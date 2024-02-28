@@ -1,5 +1,9 @@
 ## While loops 1
 
+
+Using http://hilite.me/ for python highlighting . setting = default
+
+
 ### q1
 tries = 3
 while tries > 0:
@@ -15,8 +19,132 @@ print("game over!")
 <span style="color:rgb(255, 200, 0); font-weight:400;">print</span>(<span style="color:rgb(56, 192, 255); font-weight:400;">&quot;game over!&quot;</span>)</code></pre>
 
 ### Ans
-guess my name Aaron
-guess my name Ali
-guess my name Adam
+guess my name> Aaron
+guess my name> Ali
+guess my name> Adam
 game over!
 
+### q2
+seconds = 3
+while seconds > 0:
+    print(f"{seconds} seconds left.")
+    seconds = seconds - 1
+print("Times's up!")
+
+<pre style="margin: 0; line-height: 125%">seconds <span style="color: #666666">=</span> <span style="color: #666666">3</span>
+<span style="color: #008000; font-weight: bold">while</span> seconds <span style="color: #666666">&gt;</span> <span style="color: #666666">0</span>:
+    <span style="color: #008000; font-weight: bold">print</span>(f<span style="color: #BA2121">&quot;{seconds} seconds left.&quot;</span>)
+    seconds <span style="color: #666666">=</span> seconds <span style="color: #666666">-</span> <span style="color: #666666">1</span>
+<span style="color: #008000; font-weight: bold">print</span>(<span style="color: #BA2121">&quot;Times&#39;s up!&quot;</span>)
+</pre>
+
+### q3
+word, index = "", 4
+myList = ["c","o","d","e","f","e","z"]
+while index < len(myList):
+    word = word + myList[index]
+    index +=1
+print(word)
+
+<pre style="margin: 0; line-height: 125%">word, index <span style="color: #666666">=</span> <span style="color: #BA2121">&quot;&quot;</span>, <span style="color: #666666">4</span>
+myList <span style="color: #666666">=</span> [<span style="color: #BA2121">&quot;c&quot;</span>,<span style="color: #BA2121">&quot;o&quot;</span>,<span style="color: #BA2121">&quot;d&quot;</span>,<span style="color: #BA2121">&quot;e&quot;</span>,<span style="color: #BA2121">&quot;f&quot;</span>,<span style="color: #BA2121">&quot;e&quot;</span>,<span style="color: #BA2121">&quot;z&quot;</span>]
+<span style="color: #008000; font-weight: bold">while</span> index <span style="color: #666666">&lt;</span> <span style="color: #008000">len</span>(myList):
+    word <span style="color: #666666">=</span> word <span style="color: #666666">+</span> myList[index]
+    index <span style="color: #666666">+=1</span>
+<span style="color: #008000; font-weight: bold">print</span>(word)
+</pre>
+
+Ans
+fez
+
+### q4
+password, attempts = "secret", 3
+while attempts > 0:
+    guess = input("Enter the password")
+    attempts -= 1
+    if guess == password:
+        print("Access granted!")
+        break
+
+<pre style="margin: 0; line-height: 125%">
+password, attempts <span style="color: #666666">=</span> <span style="color: #BA2121">&quot;secret&quot;</span>, <span style="color: #666666">3</span>
+<span style="color: #008000; font-weight: bold">while</span> attempts <span style="color: #666666">&gt;</span> <span style="color: #666666">0</span>:
+    guess <span style="color: #666666">=</span> <span style="color: #008000">input</span>(<span style="color: #BA2121">&quot;Enter the password&quot;</span>)
+    attempts <span style="color: #666666">-=</span> <span style="color: #666666">1</span>
+    <span style="color: #008000; font-weight: bold">if</span> guess <span style="color: #666666">==</span> password:
+        <span style="color: #008000; font-weight: bold">print</span>(<span style="color: #BA2121">&quot;Access granted!&quot;</span>)
+        <span style="color: #008000; font-weight: bold">break</span>
+</pre>
+
+ANS
+Enter the password password123
+Enter the password letmein
+Enter the password password
+
+
+### q5
+fruits = ["apple", "banana", "orange"]
+index = 1
+while index < len(fruits):
+    print(fruits[index])
+    index += 1
+
+<pre style="margin: 0; line-height: 125%">
+fruits <span style="color: #666666">=</span> [<span style="color: #BA2121">&quot;apple&quot;</span>, <span style="color: #BA2121">&quot;banana&quot;</span>, <span style="color: #BA2121">&quot;orange&quot;</span>]
+index <span style="color: #666666">=</span> <span style="color: #666666">1</span>
+<span style="color: #008000; font-weight: bold">while</span> index <span style="color: #666666">&lt;</span> <span style="color: #008000">len</span>(fruits):
+    <span style="color: #008000; font-weight: bold">print</span>(fruits[index])
+    index <span style="color: #666666">+=</span> <span style="color: #666666">1</span>
+</pre>
+
+ANS
+banana
+orange
+
+
+
+### q6
+word, index = "", 4
+myList = ["c","o","d","e","f","e","z"]
+while index < len(myList):
+    word = word + myList[index]
+    print(myList[index])
+    index +=1
+
+
+<pre style="margin: 0; line-height: 125%">word, index <span style="color: #666666">=</span> <span style="color: #BA2121">&quot;&quot;</span>, <span style="color: #666666">4</span>
+myList <span style="color: #666666">=</span> [<span style="color: #BA2121">&quot;c&quot;</span>,<span style="color: #BA2121">&quot;o&quot;</span>,<span style="color: #BA2121">&quot;d&quot;</span>,<span style="color: #BA2121">&quot;e&quot;</span>,<span style="color: #BA2121">&quot;f&quot;</span>,<span style="color: #BA2121">&quot;e&quot;</span>,<span style="color: #BA2121">&quot;z&quot;</span>]
+<span style="color: #008000; font-weight: bold">while</span> index <span style="color: #666666">&lt;</span> <span style="color: #008000">len</span>(myList):
+    word <span style="color: #666666">=</span> word <span style="color: #666666">+</span> myList[index]
+    <span style="color: #008000; font-weight: bold">print</span>(myList[index])
+    index <span style="color: #666666">+=1</span>
+</pre>
+
+Ans
+
+f
+e
+z
+
+### q7
+
+myList = ["code", "fez"]
+password = input("enter your access key")
+while password not in myList:
+    password = input("no such access key. Try again")
+print("access granted")
+
+<pre style="margin: 0; line-height: 125%">
+myList <span style="color: #666666">=</span> [<span style="color: #BA2121">&quot;code&quot;</span>, <span style="color: #BA2121">&quot;fez&quot;</span>]
+password <span style="color: #666666">=</span> <span style="color: #008000">input</span>(<span style="color: #BA2121">&quot;enter your access key&quot;</span>)
+<span style="color: #008000; font-weight: bold">while</span> password <span style="color: #AA22FF; font-weight: bold">not</span> <span style="color: #AA22FF; font-weight: bold">in</span> myList:
+    password <span style="color: #666666">=</span> <span style="color: #008000">input</span>(<span style="color: #BA2121">&quot;no such access key. Try again&quot;</span>)
+<span style="color: #008000; font-weight: bold">print</span>(<span style="color: #BA2121">&quot;access granted&quot;</span>)
+</pre>
+
+
+ANS
+enter your access key password123
+no such access key. Try again codefez
+no such access key. Try again fez
+access granted
