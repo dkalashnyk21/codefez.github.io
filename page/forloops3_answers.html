@@ -1,0 +1,170 @@
+---
+layout: default
+---
+
+<div class="text-left content-start">
+    <div class="flex flex-row gap-1 flex-start space-y-1 gap-1 flex-start space-y-1">
+        <div class="flex-none mb-1">1</div>
+        <div class="basis-1/2 mr-1 mb-1">
+                <pre>
+                    <code>
+    numbers = [1, 2, 3, 4, 5]
+    squared = []
+    for num in numbers:
+        squared.append(__________)
+    print(squared)
+                    </code>
+                </pre>
+        </div>
+        <div class="basis-1/2">
+            <div class="mockup-code">
+                <pre>
+                    <code>
+    numbers = [1, 2, 3, 4, 5]
+    squared = []
+    for num in numbers:
+        squared.append(num * num)
+    print(squared)
+    > [1, 4, 9, 16, 25]
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-row gap-1 flex-start space-y-1">
+        <div class="flex-none">2</div>
+        <div class="basis-1/2 mr-1 mb-1">
+            
+                <pre>
+                    <code>
+    numbers = [2, 5, 8, 10]
+    total_sum = 0
+    for num in numbers:
+        total_sum += _______
+    print(f"The sum of the list is: {total_sum}")                        
+                    </code>
+                </pre>
+            
+        </div>
+        <div class="basis-1/2">
+            <div class="mockup-code">
+                <pre>
+                    <code>
+        numbers = [2, 5, 8, 10]
+        total_sum = 0
+        for num in numbers:
+            total_sum += num
+        print(f"The sum of the list is: {total_sum}")
+        > The sum of the list is: 25
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-row gap-1 flex-start space-y-1">
+        <div class="flex-none">3</div>
+        <div class="basis-1/2 mr-1 mb-1">
+            
+                <pre>
+                    <code>
+    numbers = [15, 7, 22, 3]
+    largest = _____________
+    for num in numbers:
+        if num ___ largest:
+        largest = num
+    print(f"The largest number is: {largest}")
+                    </code>
+                </pre>
+            
+        </div>
+        <div class="basis-1/2">
+            <div class="mockup-code">
+                <pre>
+                    <code>
+        numbers = [15, 7, 22, 3]
+        largest = numbers[0]
+        for num in numbers:
+            if num > largest:
+            largest = num
+        print(f"The largest number is: {largest}")
+        > The largest number is: 22
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-row gap-1 flex-start space-y-1 ">
+        <div class="flex-none mb-1">4</div>
+        <div class="basis-1/2 mr-1 mb-1">
+                <pre>
+                    <code>
+    numbers = [15, 7, 22, 3, 1, 2, 4, 5, ]
+    even_numbers = []
+
+    for num in range(0, _______________):
+        if numbers[num] % 2 == 0:
+        
+        even_numbers.append(___________)
+
+    print(f"The even numbers in the list are {even_numbers}")
+                    </code>
+                </pre>
+        </div>
+        <div class="basis-1/2">
+            <div class="mockup-code">
+                <pre>
+                    <code>
+    numbers = [15, 7, 22, 3, 1, 2, 4, 5, ]
+    even_numbers = []
+
+    for num in range(0, len(numbers)):
+        if numbers[num] % 2 == 0:
+        even_numbers.append(numbers[num])
+
+    print(f"The even numbers in the list are {even_numbers}")
+    The even numbers in the list are [22, 2, 4]
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-row gap-1 flex-start space-y-1 ">
+        <div class="flex-none mb-1">5</div>
+        <div class="basis-1/2 mr-1 mb-1">
+                <pre>
+                    <code>
+    text = "Hello Again Codefez!"
+    vowel_count = 0
+    vowels = "aeiou"
+    for letter in text:
+        if ______________ in vowels:
+        vowel_count += 1
+    print(f"The number of vowels: {____________}")
+    
+    > The number of vowels: 8
+                    </code>
+                </pre>
+        </div>
+        <div class="basis-1/2">
+            <div class="mockup-code">
+                <pre>
+                    <code>
+    text = "Hello Again Codefez!"
+    vowel_count = 0
+    vowels = "aeiou"
+    for letter in text:
+        if letter.lower() in vowels:
+        vowel_count += 1
+    print(f"The number of vowels: {vowel_count}")
+    
+    > The number of vowels: 8
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+      
+</div>
