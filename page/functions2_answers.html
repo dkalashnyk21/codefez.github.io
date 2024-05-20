@@ -6,20 +6,20 @@ layout: default
     <div class="flex flex-row gap-1 flex-start space-y-1 gap-1 flex-start space-y-1">
         <div class="flex-none mb-1">1</div>
         <div class="basis-1/2 mr-1 mb-1">
-                <pre>
-                    <code>
-    def area_of_circle(r):
-        area = 3.14 * r * r
-        print(area)
-    area_of_circle(5) # This line calls the function
-                    </code>
-                </pre>
+<pre data-prefix="1"><code>def add_vat(price):</code></pre> 
+    <pre data-prefix="2"><code>vat_rate = 0.2 # VAT 20%</code></pre>
+    <pre data-prefix="3"><code>total_cost = price * vat_amount</code></pre>
+    <pre data-prefix="4"><code>return total_cost</code></pre>
+<pre data-prefix="5"><code>meal_price = 20.00</code></pre>
+<pre data-prefix="6"><code>total_cost = add_vat(meal_price)</code></pre>
+<pre data-prefix="7"><code>print(f"The total cost with VAT is £{total_cost}.")</code></pre>
+<pre data-prefix="8" class="text-success"># Rewrite, the function so that lines 2,3 & 4 are just 1 line of code.</pre>
         </div>
         <div class="basis-1/2">
             <div class="mockup-code">
-                <pre>
+                <pre data-prefix=">" class="text-success">
                     <code>
-    78.5
+    return price * 1.2
                     </code>
                 </pre>
             </div>
@@ -31,19 +31,22 @@ layout: default
         <div class="basis-1/2 mr-1 mb-1">
                 <pre>
                     <code>
-    shopping = ["apples", "bread"]
-    def delete_from_list(item):
-        shopping.append(item)
-        print(shopping)
-    delete_from_list("ketchup")
+    def find_vowels(text):
+    vowels = "aEiou"
+    count = 0
+    for char in text:
+        if char.lower() in vowels:
+        count += 1
+    return count
+    print(find_vowels("cOdEfez"))
                     </code>
                 </pre>
         </div>
         <div class="basis-1/2">
             <div class="mockup-code">
-                <pre>
+                <pre data-prefix=">" class="text-success">
                     <code>
-    ['apples', 'bread', 'ketchup']
+    1
                     </code>
                 </pre>
             </div>
@@ -55,21 +58,27 @@ layout: default
         <div class="basis-1/2 mr-1 mb-1">
             <pre>
                 <code>
-    shopping = ["apples", "bread", "ketchup"]
-    def delete_from_list(item):
-        shopping.pop(item)
-        print(shopping)
-    delete_from_list(0)                    
+    def linear_search(data, target):
+    for i in range(0, len(data)):
+        if _____________________________:
+        return f"Element found at index: {i}"
+    result = linear_search([1, 3, 5, 7, 9], 7)
+    print(result)                    
                 </code>
             </pre>
         </div>
         <div class="basis-1/2">
             <div class="mockup-code">
-                <pre>
-                    <code>
-    ['bread', 'ketchup']
-                    </code>
-                </pre>
+                <pre data-prefix=">" class="text-success"></pre>
+                    <pre>
+                        <code>
+    def linear_search(data, target):
+    for i in range(0, len(data)): </code></pre>
+    <pre class="text-success">if data[i] == target:</code></pre><pre><code>
+        return f"Element found at index: {i}"
+    result = linear_search([1, 3, 5, 7, 9], 7)
+    print(result)</code></pre>
+    <pre data-prefix=">" class="text-success">Element found at index: 3</pre>
             </div>
         </div>
     </div>
@@ -79,21 +88,20 @@ layout: default
         <div class="basis-1/2 mr-1 mb-1">
             <pre>
                 <code>
-    count = 0
-    def increment_counter():
-        global count
-        count += 1
-    increment_counter()
-    increment_counter()
-    print(count)
+    num = 7
+    if num % 2 == 0:
+        print("number is odd")
+    else:
+        print("number is even")
                 </code>
             </pre>
         </div>
         <div class="basis-1/2">
             <div class="mockup-code">
-                <pre>
+                <pre data-prefix=">" class="text-success">
                     <code>
-    2
+    def is_odd(num):
+        return num % 2 != 0 
                     </code>
                 </pre>
             </div>
@@ -105,28 +113,33 @@ layout: default
         <div class="basis-1/2 mr-1 mb-1">
             <pre>
                 <code>
-    def linear_search(search_list, value):
-        flag = False
-        for index in range(0, len(search_list)):
-            if search_list[index] == value:
-            flag = True
-            break
-        if flag == True:
-            print("item found in list")
-        else:
-            print("value not found")
+    shop = [
+        {"item":"bread", "price":1.2, "qty":1},
+        {"item":"milk",  "price":0.9, "qty":2},
+        {"item":"eggs",  "price":2.5, "qty":2}
+    ]
+
+    def calc_total(shop):
     
-    my_list = [3, 7, 1, 9, 2]
-    target_value = 7
-    linear_search(my_list, target_value)  
+        ______________________________________
+
+        ______________________________________
+        
+        ______________________________________
+        
+        return total 
                 </code>
             </pre>
         </div>
         <div class="basis-1/2">
             <div class="mockup-code">
-                <pre>
+                <pre data-prefix=">" class="text-success">
                     <code>
-    item found in list
+def calc_total(shop):
+    total = 0
+    for i in shop:
+        total += i["price"] * i["qty"]
+    return total
                     </code>
                 </pre>
             </div>
@@ -139,84 +152,33 @@ layout: default
         <div class="basis-1/2 mr-1 mb-1">
             <pre>
                 <code>
-    def reverse_list(data):
-        print(data.reverse())
+    from random import choice
+
+    def greeting(name):
+        greets = ["Hello", "Bonjour", "Salaam"]
+        
+        return _____________________________________________
     
-    my_list = [1, 2, 3, 4, 5]
-    reverse_list(my_list)                 
+    print(greeting("Sarah"))                
                 </code>
             </pre>
         </div>
         <div class="basis-1/2">
             <div class="mockup-code">
-                <pre>
+                <pre data-prefix=">" class="text-success">
                     <code>
-    [5, 4, 3, 2, 1]
-                    </code>
-                </pre>
-            </div>
-        </div>
-    </div>
-                    
+    from random import choice
 
-    <div class="flex flex-row gap-1 flex-start space-y-1 gap-1 flex-start space-y-1">
-        <div class="flex-none mb-1">7</div>
-        <div class="basis-1/2 mr-1 mb-1">
-            <pre>
-                <code>
-    def find_vowels(text):
-        string = ""
-        vowels = "aeiou"
-        for char in text:
-            if char.lower() in vowels:
-            string += char
-        print(string)
+    def greeting(name):
+        greets = ["Hello", "Bonjour", "Salaam"]
+        return f"{choice(greets)}, {name}!"
     
-    find_vowels("Hello, World!")
-                </code>
-            </pre>
-        </div>
-        <div class="basis-1/2">
-            <div class="mockup-code">
-                <pre>
-                    <code>
-    eoo
+    print(greeting("Sarah"))
                     </code>
                 </pre>
             </div>
         </div>
     </div>
-
-    <div class="flex flex-row gap-1 flex-start space-y-1 gap-1 flex-start space-y-1">
-        <div class="flex-none mb-1">8</div>
-        <div class="basis-1/2 mr-1 mb-1">
-            <pre>
-                <code>
-    def display_progress_bar(progress):
-        bar_length = 5
-        completed = int(progress * bar_length)
-        print(f'[{"#" * completed}{" " * (bar_length - completed)}] {str(int(progress * 100))}%')
     
-    # Example usage
-    for i in range(5):
-        display_progress_bar(i/5)
-                </code>
-            </pre>
-        </div>
-        <div class="basis-1/2">
-            <div class="mockup-code">
-                <pre>
-                    <code>
-    [     ] 0%
-    [#    ] 20%
-    [##   ] 40%
-    [###  ] 60%
-    [#### ] 80%
-                    </code>
-                </pre>
-            </div>
-        </div>
-    </div>
-
 </div>
 
