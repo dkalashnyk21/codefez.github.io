@@ -1,0 +1,222 @@
+---
+layout: default
+---
+
+<div class="text-left content-start">
+    <div class="flex flex-row gap-1 flex-start space-y-1 gap-1 flex-start space-y-1">
+        <div class="flex-none mb-1">1</div>
+        <div class="basis-1/2 mr-1 mb-1">
+                <pre>
+                    <code>
+    def area_of_circle(r):
+        area = 3.14 * r * r
+        print(area)
+    area_of_circle(5) # This line calls the function
+                    </code>
+                </pre>
+        </div>
+        <div class="basis-1/2">
+            <div class="mockup-code">
+                <pre>
+                    <code>
+    78.5
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+    
+    <div class="flex flex-row gap-1 flex-start space-y-1 gap-1 flex-start space-y-1">
+        <div class="flex-none mb-1">2</div>
+        <div class="basis-1/2 mr-1 mb-1">
+                <pre>
+                    <code>
+    shopping = ["apples", "bread"]
+    def delete_from_list(item):
+        shopping.append(item)
+        print(shopping)
+    delete_from_list("ketchup")
+                    </code>
+                </pre>
+        </div>
+        <div class="basis-1/2">
+            <div class="mockup-code">
+                <pre>
+                    <code>
+    ['apples', 'bread', 'ketchup']
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-row gap-1 flex-start space-y-1 gap-1 flex-start space-y-1">
+        <div class="flex-none mb-1">3</div>
+        <div class="basis-1/2 mr-1 mb-1">
+            <pre>
+                <code>
+    shopping = ["apples", "bread", "ketchup"]
+    def delete_from_list(item):
+        shopping.pop(item)
+        print(shopping)
+    delete_from_list(0)                    
+                </code>
+            </pre>
+        </div>
+        <div class="basis-1/2">
+            <div class="mockup-code">
+                <pre>
+                    <code>
+    ['bread', 'ketchup']
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-row gap-1 flex-start space-y-1 gap-1 flex-start space-y-1">
+        <div class="flex-none mb-1">4</div>
+        <div class="basis-1/2 mr-1 mb-1">
+            <pre>
+                <code>
+    count = 0
+    def increment_counter():
+        global count
+        count += 1
+    increment_counter()
+    increment_counter()
+    print(count)
+                </code>
+            </pre>
+        </div>
+        <div class="basis-1/2">
+            <div class="mockup-code">
+                <pre>
+                    <code>
+    2
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-row gap-1 flex-start space-y-1 gap-1 flex-start space-y-1">
+        <div class="flex-none mb-1">5</div>
+        <div class="basis-1/2 mr-1 mb-1">
+            <pre>
+                <code>
+    def linear_search(search_list, value):
+        flag = False
+        for index in range(0, len(search_list)):
+            if search_list[index] == value:
+            flag = True
+            break
+        if flag == True:
+            print("item found in list")
+        else:
+            print("value not found")
+    
+    my_list = [3, 7, 1, 9, 2]
+    target_value = 7
+    linear_search(my_list, target_value)  
+                </code>
+            </pre>
+        </div>
+        <div class="basis-1/2">
+            <div class="mockup-code">
+                <pre>
+                    <code>
+    item found in list
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+                    
+
+    <div class="flex flex-row gap-1 flex-start space-y-1 gap-1 flex-start space-y-1">
+        <div class="flex-none mb-1">6</div>
+        <div class="basis-1/2 mr-1 mb-1">
+            <pre>
+                <code>
+    def reverse_list(data):
+        print(data.reverse())
+    
+    my_list = [1, 2, 3, 4, 5]
+    reverse_list(my_list)                 
+                </code>
+            </pre>
+        </div>
+        <div class="basis-1/2">
+            <div class="mockup-code">
+                <pre>
+                    <code>
+    [5, 4, 3, 2, 1]
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+                    
+
+    <div class="flex flex-row gap-1 flex-start space-y-1 gap-1 flex-start space-y-1">
+        <div class="flex-none mb-1">7</div>
+        <div class="basis-1/2 mr-1 mb-1">
+            <pre>
+                <code>
+    def find_vowels(text):
+        string = ""
+        vowels = "aeiou"
+        for char in text:
+            if char.lower() in vowels:
+            string += char
+        print(string)
+    
+    find_vowels("Hello, World!")
+                </code>
+            </pre>
+        </div>
+        <div class="basis-1/2">
+            <div class="mockup-code">
+                <pre>
+                    <code>
+    eoo
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-row gap-1 flex-start space-y-1 gap-1 flex-start space-y-1">
+        <div class="flex-none mb-1">8</div>
+        <div class="basis-1/2 mr-1 mb-1">
+            <pre>
+                <code>
+    def display_progress_bar(progress):
+        bar_length = 5
+        completed = int(progress * bar_length)
+        print(f'[{"#" * completed}{" " * (bar_length - completed)}] {str(int(progress * 100))}%')
+    
+    # Example usage
+    for i in range(5):
+        display_progress_bar(i/5)
+                </code>
+            </pre>
+        </div>
+        <div class="basis-1/2">
+            <div class="mockup-code">
+                <pre>
+                    <code>
+    [     ] 0%
+    [#    ] 20%
+    [##   ] 40%
+    [###  ] 60%
+    [#### ] 80%
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+
+</div>
+
