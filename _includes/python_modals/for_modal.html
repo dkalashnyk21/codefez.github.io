@@ -1,0 +1,73 @@
+<dialog id="for_modal" class="modal">
+    <div class="modal-box">
+        <h3 class="font-bold text-lg">For Loops</h3>
+        <p class="py-4">
+            a <code class="text-accent">for</code> loop allows us to iterate a list of instructions for a specified number of times.
+        </p>
+        <div class="flex flex-row gap-1 flex-start space-y-1 ">
+            <div class="basis-1/2 text-xs mr-1 mb-1">
+                <pre>
+                    <code>
+
+
+for <span class="text-accent">i</span> in range(3):
+    print("hi")
+                    </code>
+                </pre>
+            </div>
+            <div class="basis-1/2 text-xs">
+                <div class="mockup-code">
+                    <pre>
+                        <code>
+    hi
+    hi
+    hi
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+        <br>
+        <p>
+            The <code class="text-accent">i</code> represents a local variable. <br>
+            Imagine that the <code class="text-accent">i</code> stands for 
+            <span class="text-accent">iteration</span>.
+        </p>
+        <p>
+            The <code class="text-accent">i</code> can be replaced by another name such as 
+            <code class="text-accent">x</code> or <code class="text-accent">word</code> or
+            <code class="text-accent">name</code>.
+        </p>
+        <p>
+            The only rule here is to not name the local variable with a variable already 
+            used in your code or one that is a reservered word such as <code class="text-accent">print</code>
+            or <code class="text-accent">for</code>.
+        </p>
+        <div class="flex flex-row gap-1 flex-start space-y-1 ">
+            <div class="basis-1/2 text-xs mr-1 mb-1">
+                <pre>
+                    <code>
+
+                        
+for <span class="text-accent">number</span> in range(3):
+    print(<span class="text-accent">number</span>)
+                    </code>
+                </pre>
+            </div>
+            <div class="basis-1/2 text-xs">
+                <div class="mockup-code">
+                    <pre>
+                        <code>
+    0
+    1
+    2
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form method="dialog" class="modal-backdrop">
+      <button>close</button>
+    </form>
+</dialog>

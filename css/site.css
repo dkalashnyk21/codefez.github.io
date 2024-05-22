@@ -34,3 +34,6 @@ nav {
     flex-grow: 0; /* No horizontal growth on mobile */
   }
 }
+
+.f-container{display:flex;}
+.column{flex:1;}
