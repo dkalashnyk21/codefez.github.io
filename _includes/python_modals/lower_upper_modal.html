@@ -1,12 +1,10 @@
-<dialog id="comments_modal" class="modal">
+<dialog id="lower_upper_modal" class="modal">
     <div class="modal-box">
-        <h3 class="font-bold text-lg">Comments</h3>
+        <h3 class="font-bold text-lg">lower / upper</h3>
         <p class="py-4">
-            The <code class="text-accent">#</code> symbol creates a line that is ignored by Python.
-            This is called a comment and can be used to describe the purpose of a block of code for clarity later.
+            The <code class="text-accent">lower()</code> function converts all alphanumeric characters into lowercase
             <br>
         </p>
-        
         <p>
             
             <div class="flex flex-row gap-1 flex-start space-y-1 ">
@@ -14,18 +12,15 @@
                     <div class="mockup-window border bg-base-300">
                         <pre class=" bg-base-200">
                             <code>
-# The line below asks for a user's age
-age = int(input("What's your age?"))
-
+name = "CodeFez"
+print(name.lower())
                             </code>
                         </pre>
                     </div>
                 </div>
                 <div class="basis-1/2 text-xs">
                     <div class="mockup-code">
-                        <pre data-prefix=">"><code>What's your age?
-
-
+                        <pre data-prefix=">"><code>codefez
                             </code>
                         </pre>
                     </div>
@@ -34,8 +29,9 @@ age = int(input("What's your age?"))
             
         </p>
 
-        <p>
-            Multiple comment lines can also be achieved by using either 3 single or 3 double quotes <br>
+        <p class="py-4">
+            The <code class="text-accent">upper()</code> function converts all alphanumeric characters into uppercase
+            <br>
         </p>
         <p>
             
@@ -44,25 +40,15 @@ age = int(input("What's your age?"))
                     <div class="mockup-window border bg-base-300">
                         <pre class=" bg-base-200">
                             <code>
-"""The line below asks 
-for a user's age """
-age = int(input("What's your age?"))
-
-'''The line below asks 
-for a user's age '''
-age = int(input("What's your age?"))
+name = "CodeFez"
+print(name.upper())
                             </code>
                         </pre>
                     </div>
                 </div>
                 <div class="basis-1/2 text-xs">
                     <div class="mockup-code">
-                        <pre data-prefix=">"><code>What's your age?
-
-
-
-
-
+                        <pre data-prefix=">"><code>CODEFEZ
                             </code>
                         </pre>
                     </div>
@@ -70,14 +56,7 @@ age = int(input("What's your age?"))
             </div>
             
         </p>
-        <p>
-            <div role="alert" class="alert alert-info">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                <span>Comment a line/s by highlighting it and hit the <br> 
-                    <kbd class="kbd kbd-sm">ctrl</kbd> + <kbd class="kbd kbd-sm">/</kbd> keys.
-                </span>
-            </div>
-        </p>         
+                   
     </div>
     <form method="dialog" class="modal-backdrop">
       <button>close</button>

@@ -1,0 +1,53 @@
+<dialog id="while_modal" class="modal">
+    <div class="modal-box">
+        <h3 class="font-bold text-lg">while</h3>
+        <p class="py-4">
+            The <code class="text-accent">while</code> loop keeps running until a certain condition is met. 
+            You can replace the printing and incrementing with any code you want.
+        </p>
+        <p>            
+            <div class="flex flex-row gap-1 flex-start space-y-1 ">
+                <div class="basis-1/2 text-xs mr-1 mb-1">
+                    <div class="mockup-window border bg-base-300">
+                        <pre class=" bg-base-200">
+                            <code>
+# The counter can help escape a loop
+counter = 1
+
+while counter <= 5:
+    print(counter)
+
+    # Increment the counter 
+    counter += 1
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="basis-1/2 text-xs">
+                    <div class="mockup-code">
+                        <pre data-prefix=">"><code>1
+    2
+    3
+    4
+    5
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+            
+        </p>
+    
+        <p>
+            <div role="alert" class="alert alert-info">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <span>
+                    If the counter is not outside of the while block, you may be stuck in a infinite loop.
+                </span>
+            </div>
+        </p>  
+    </div>
+    <form method="dialog" class="modal-backdrop">
+      <button>close</button>
+    </form>
+</dialog>
