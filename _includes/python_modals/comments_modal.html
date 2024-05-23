@@ -1,27 +1,30 @@
-<dialog id="len_modal" class="modal">
+<dialog id="comments_modal" class="modal">
     <div class="modal-box">
-        <h3 class="font-bold text-lg">len()</h3>
+        <h3 class="font-bold text-lg">Comments</h3>
         <p class="py-4">
-            The <code class="text-accent">len()</code> evaluates how big an object is. <br>
+            The <code class="text-accent">#</code> symbol creates a line that is ignored by Python.
+            This is called a comment and can be used to describe the purpose of a block of code for clarity later.
         </p>
+        
         <p>
-            In this case of a string, this is how many characters.
+            
             <div class="flex flex-row gap-1 flex-start space-y-1 ">
                 <div class="basis-1/2 text-xs mr-1 mb-1">
                     <div class="mockup-window border bg-base-300">
-                        <pre class=" bg-base-200"><code>
-text = "fez"
-len_of_text = <span class="text-accent">len</span>(text)
-print(len_of_text)
+                        <pre class=" bg-base-200">
+                            <code>
+# The line below asks for a user's age
+age = int(input("What's your age?"))
+
                             </code>
                         </pre>
                     </div>
                 </div>
                 <div class="basis-1/2 text-xs">
                     <div class="mockup-code">
-                        <pre>
-                            <code>
-    3
+                        <pre data-prefix=">"><code>What's your age?
+
+
                             </code>
                         </pre>
                     </div>
@@ -29,34 +32,44 @@ print(len_of_text)
             </div>
             
         </p>
+
         <p>
-            In the case of a list, it is how many elements there are in the list.
+            Multiple comment lines can also be achieved by using either 3 single or 3 double quotes <br>
+        </p>
+        <p>
+            
             <div class="flex flex-row gap-1 flex-start space-y-1 ">
                 <div class="basis-1/2 text-xs mr-1 mb-1">
                     <div class="mockup-window border bg-base-300">
-                        <pre class=" bg-base-200"><code>
+                        <pre class=" bg-base-200">
+                            <code>
+"""The line below asks 
+for a user's age """
+age = int(input("What's your age?"))
 
-myList = ["fez", "code"]
-len_of_list = <span class="text-accent">len</span>(myList)
-print(len_of_list)
+'''The line below asks 
+for a user's age '''
+age = int(input("What's your age?"))
                             </code>
                         </pre>
                     </div>
                 </div>
                 <div class="basis-1/2 text-xs">
                     <div class="mockup-code">
-                        <pre>
-                            <code>
-    2
+                        <pre data-prefix=">"><code>What's your age?
+
+
+
+
+
                             </code>
                         </pre>
                     </div>
                 </div>
             </div>
+            
         </p>
-        
-        <p>
-           
+                   
     </div>
     <form method="dialog" class="modal-backdrop">
       <button>close</button>

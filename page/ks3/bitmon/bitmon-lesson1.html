@@ -122,7 +122,7 @@ layout: default
       <button class="btn btn-primary btn-xs" onclick="inp_int_modal.showModal()">number input</button>
       <button class="btn btn-primary btn-xs" onclick="in_modal.showModal()">in / not in</button>
       <button class="btn btn-primary btn-xs" onclick="len_modal.showModal()">length</button>
-      <button class="btn btn-primary btn-xs" onclick="if_modal.showModal()">if / else</button>
+      <button class="btn btn-primary btn-xs" onclick="if_else_modal.showModal()">if / else</button>
     </p>
   </div>
 </div>
@@ -130,11 +130,54 @@ layout: default
 <div class="collapse collapse-plus bg-base-200">
   <input type="radio" name="my-accordion-3" /> 
   <div class="collapse-title text-xl font-medium">
-    Click to open this one and close others
+    Task 3 - Improving the registration form
   </div>
   <div class="collapse-content"> 
-    <p>hello</p>
+    <p>
+      You now need to make changes to the code you had worked on in task 2 to include the following:
+    </p>
+
+    <ul class="list-disc p-2">
+      <li>Add comments so the code is easy to understand later on </li>
+      <li>When checking the username, the program should treat uppercase letters and lowercase letters as being the same. eg User1 is the same as user1</li>
+      <li>The user is allowed 3 tries to enter a username that has not already been used, before the program ends</li>
+      <li>The user is allowed 3 tries to enter a password that is at least 8 characters long before the program ends</li>
+      <li>If the username is new, the user must enter a password at least 8 characters</li>
+    </ul>
+
+    <p>
+      tips on how to complete the tasks.
+      <br>
+      <button class="btn btn-primary btn-xs" onclick="comments_modal.showModal()">Comments</button>
+      <button class="btn btn-primary btn-xs" onclick="lower_upper_modal.showModal()">lower() / upper()</button>
+      <button class="btn btn-primary btn-xs" onclick="while_modal.showModal()">while</button>
+    </p>
   </div>
+
+  <div class="collapse collapse-plus bg-base-200">
+    <input type="radio" name="my-accordion-4" /> 
+    <div class="collapse-title text-xl font-medium">
+      Extension
+    </div>
+    <div class="collapse-content"> 
+      <p>
+        --- task 3 to include the following:
+      </p>
+  
+      <ul class="list-disc p-2">
+        <li>Add comments so the code is easy to understand later on </li>
+        <li>When checking the username, the program should treat uppercase letters and lowercase letters as being the same. eg User1 is the same as user1</li>
+        
+      </ul>
+  
+      <p>
+        tips on how to complete the tasks.
+        <br>
+        <button class="btn btn-primary btn-xs" onclick="open_modal.showModal()">open()</button>
+        <button class="btn btn-primary btn-xs" onclick="readlines_modal.showModal()">readlines()</button>
+        <button class="btn btn-primary btn-xs" onclick="write_modal.showModal()">write()</button>
+      </p>
+    </div>
 </div>
 
   {% include python_modals.html  %}
