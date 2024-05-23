@@ -1,0 +1,41 @@
+<dialog id="write_modal" class="modal">
+    <div class="modal-box">
+        <h3 class="font-bold text-lg">Write</h3>
+        <p class="py-4">
+            The <code class="text-accent">write()</code> function writes a line to a file.
+            
+        </p>
+        <p>
+            
+            <div class="flex flex-row gap-1 flex-start">
+                <div class="basis-1/2 text-xs mr-1 mb-1">
+                    <div class="mockup-window border bg-base-300">
+                        <pre class=" bg-base-200">
+                            <code>
+with open("filename.txt", "a") as file:
+    content = "A line of text.\n"
+    file.write(content)
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="basis-1/2 text-xs mr-1 mb-1">
+                    <div class="mockup-window border bg-base-300">
+                        <pre class=" bg-base-200">
+                            <code>
+file = open("filename.txt", "a")
+file.write(content)
+file.close()
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+            
+        </p>
+                   
+    </div>
+    <form method="dialog" class="modal-backdrop">
+      <button>close</button>
+    </form>
+</dialog>

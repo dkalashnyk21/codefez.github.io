@@ -10,7 +10,8 @@ layout: default
 </div>
 
 <div class="collapse collapse-plus bg-base-200">
-  <input type="radio" name="my-accordion-3" /> 
+  <input type="checkbox" class="peer" /> 
+  <!-- <input type="radio" name="my-accordion-4" />  -->
   <div class="collapse-title text-xl font-medium">
     Task 1 - Registration Form Flow Chart
   </div>
@@ -75,7 +76,6 @@ layout: default
         </div>
       </div>
       
-
       <!-- process -->
       <div class="column">
         <div class="collapse bg-base-200">
@@ -97,7 +97,8 @@ layout: default
 </div>
 
 <div class="collapse collapse-plus bg-base-200" id="input_modal_section">
-  <input type="radio" name="my-accordion-3" /> 
+  <input type="checkbox" class="peer" /> 
+  <!-- <input type="radio" name="my-accordion-4" />  -->
   <div class="collapse-title text-xl font-medium">
     Task 2 - Coding the registration form
   </div>
@@ -128,7 +129,8 @@ layout: default
 </div>
 
 <div class="collapse collapse-plus bg-base-200">
-  <input type="radio" name="my-accordion-3" /> 
+  <input type="checkbox" class="peer" /> 
+  <!-- <input type="radio" name="my-accordion-4" />  -->
   <div class="collapse-title text-xl font-medium">
     Task 3 - Improving the registration form
   </div>
@@ -153,31 +155,33 @@ layout: default
       <button class="btn btn-primary btn-xs" onclick="while_modal.showModal()">while</button>
     </p>
   </div>
-
-  <div class="collapse collapse-plus bg-base-200">
-    <input type="radio" name="my-accordion-4" /> 
-    <div class="collapse-title text-xl font-medium">
-      Extension
-    </div>
-    <div class="collapse-content"> 
-      <p>
-        --- task 3 to include the following:
-      </p>
-  
-      <ul class="list-disc p-2">
-        <li>Add comments so the code is easy to understand later on </li>
-        <li>When checking the username, the program should treat uppercase letters and lowercase letters as being the same. eg User1 is the same as user1</li>
-        
-      </ul>
-  
-      <p>
-        tips on how to complete the tasks.
-        <br>
-        <button class="btn btn-primary btn-xs" onclick="open_modal.showModal()">open()</button>
-        <button class="btn btn-primary btn-xs" onclick="readlines_modal.showModal()">readlines()</button>
-        <button class="btn btn-primary btn-xs" onclick="write_modal.showModal()">write()</button>
-      </p>
-    </div>
 </div>
 
-  {% include python_modals.html  %}
+<div class="collapse collapse-plus bg-base-200">
+  <input type="checkbox" class="peer" /> 
+  <!-- <input type="radio" name="my-accordion-4" />  -->
+  <div class="collapse-title text-xl font-medium">
+    Extension
+  </div>
+  <div class="collapse-content"> 
+    <p>
+      --- task 3 to include the following:
+    </p>
+
+    <ul class="list-disc p-2">
+      <li>Add comments so the code is easy to understand later on </li>
+      <li>When checking the username, the program should treat uppercase letters and lowercase letters as being the same. eg User1 is the same as user1</li>
+      
+    </ul>
+
+    <p>
+      tips on how to complete the tasks.
+      <br>
+      <button class="btn btn-primary btn-xs" onclick="open_modal.showModal()">open()</button>
+      <button class="btn btn-primary btn-xs" onclick="read_modal.showModal()">read()</button>
+      <button class="btn btn-primary btn-xs" onclick="write_modal.showModal()">write()</button>
+    </p>
+  </div>
+</div>
+
+{% include python_modals.html  %}
