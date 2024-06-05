@@ -1,19 +1,10 @@
-<dialog id="read_modal" class="modal">
+<dialog id="quit_modal" class="modal">
     <div class="modal-box">
-        <h3 class="font-bold text-lg">read</h3>
+        <h3 class="font-bold text-lg">quit</h3>
         <p class="py-4">
-            The <code class="text-accent">read()</code> function reads the contents of an opened file.
-            The example is set up as if the file is called names.txt with 3 names.
+            The <code class="text-accent">quit()</code> function will end the program.
         </p>
-        
-        <div class="mockup-window border border-base-300 mb-2">
-            <div class="flex justify-start px-4 py-4 border-t bg-base-100">
-                Alice<br>
-                Barbara<br>
-                Chelsea
-            </div>
-        </div>
-        
+                
         <p>
             
             <div class="flex flex-row gap-1 flex-start space-y-1 ">
@@ -21,17 +12,16 @@
                     <div class="mockup-window border bg-base-300">
                         <pre class="bg-base-200">
                             <code>
-file = open("names.txt", "r")
-data = file.readlines()
-file.close()
-print(data)
+print("Hello")
+quit()
+print("world")
                             </code>
                         </pre>
                     </div>
                 </div>
                 <div class="basis-1/2 text-xs">
                     <div class="mockup-code">
-                        <pre data-prefix=">"><code>['Alice\n', 'Barbara\n', 'Chelsea']</code></pre>
+                        <pre data-prefix=">"><code>Hello</code></pre>
                     </div>
                 </div>
             </div>
