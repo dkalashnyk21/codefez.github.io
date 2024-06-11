@@ -8,6 +8,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/css/site.css">
     <script src="/js/color-scheme.js"></script>
+    <script>
+      const themeController = document.querySelector('.theme-controller');
+      
+      function handleThemeChange() {
+        const newScheme = themeController.checked ? 'dark' : 'light';
+        setColorScheme(newScheme);
+      }
+      
+      themeController.addEventListener('change', handleThemeChange);
+    </script>
   </head>
   <body>
     <nav>
