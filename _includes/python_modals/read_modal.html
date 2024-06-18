@@ -37,7 +37,37 @@ print(data)
             </div>
             
         </p>
-                   
+        <div role="alert" class="alert alert-warning">
+            <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+            <span>As you can see, each username has a \n at the end of the name. We can remove that using the rstrip() method</span>
+        </div>   
+        
+        <p>
+            <div class="flex flex-row gap-1 flex-start space-y-1 ">
+                <div class="basis-1/2 text-xs mr-1 mb-1">
+                    <div class="mockup-window border bg-base-300">
+                        <pre class="bg-base-200">
+                            <code>
+file = open("names.txt", "r")
+data = file.readlines()
+file.close()
+print(data)
+
+for name in range(0, len(data)):
+    data[name] = data[name].rstrip("\n")
+print(data)
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="basis-1/2 text-xs">
+                    <div class="mockup-code">
+                        <pre data-prefix=">"><code>['Alice\n', 'Barbara\n', 'Chelsea']</code></pre>
+                        <pre data-prefix=">"><code>['Alice', 'Barbara', 'Chelsea']</code></pre>
+                    </div>
+                </div>
+            </div>
+        </p>
     </div>
     <form method="dialog" class="modal-backdrop">
       <button>close</button>
