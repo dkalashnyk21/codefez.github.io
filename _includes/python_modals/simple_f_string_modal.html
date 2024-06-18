@@ -1,0 +1,39 @@
+<dialog id="simple_f_string_modal" class="modal">
+    <div class="modal-box">
+        <h3 class="font-bold text-lg">Append</h3>
+        <p class="py-4">
+            f-strings are a simple way to concatenate strings, integers and other datatypes into a string of text. <br>
+            Python automatically <i class="text-accent">formats</i> the datatype to string. <br>
+            Curley brackets are used to interpolate variables into a string.
+        </p>
+        <p>
+            
+            <div class="flex flex-row gap-1 flex-start">
+                <div class="basis-1/2 text-xs mr-1 mb-1">
+                    <div class="mockup-window border bg-base-300">
+                        <pre class=" bg-base-200">
+                            <code>
+name = "Alice"
+age = 17
+print(f"{name} was just {age} years old")
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="basis-1/2 text-xs">
+                    <div class="mockup-code">
+<pre data-prefix=">"><code>Alice was just 17 years old</code></pre>
+                    </div>
+                </div>
+            </div>
+
+        </p>
+        <div role="alert" class="alert alert-info">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <span>Check out the f-strings <a href="/page/f-strings.html">guide here</a>.</span>
+        </div>              
+    </div>
+    <form method="dialog" class="modal-backdrop">
+      <button>close</button>
+    </form>
+</dialog>
