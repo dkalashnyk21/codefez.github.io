@@ -7,17 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/css/site.css">
-    <script src="/js/color-scheme.js"></script>
-    <script>
-      const themeController = document.querySelector('.theme-controller');
-      
-      function handleThemeChange() {
-        const newScheme = themeController.checked ? 'dark' : 'light';
-        setColorScheme(newScheme);
-      }
-      
-      themeController.addEventListener('change', handleThemeChange);
-    </script>
+    <script src="/js/color-scheme.js" data-website-url="{{ site.url }}" async></script>
+    
   </head>
   <body>
     <nav>
@@ -36,6 +27,18 @@
       {% include analytics.html %}
     {% endif %}
   </body>
+  <script>    
+    function handleThemeChange() {
+      const newScheme = themeController.checked ? 'dark' : 'emerald';
+      setColorScheme(newScheme);
+      console.log("1 .handleThemeChange called from default HTML");
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+    const themeController = document.querySelector('.theme-controller');
+    themeController.addEventListener('change', handleThemeChange);
+    });
+  </script>
   <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 <script>
   kofiWidgetOverlay.draw('bitfez', {
