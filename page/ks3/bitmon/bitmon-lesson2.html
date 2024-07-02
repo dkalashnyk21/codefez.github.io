@@ -56,11 +56,65 @@ layout: default
       <br>
       <button class="btn btn-primary btn-xs" onclick="input_modal.showModal()">input</button>
       <button class="btn btn-primary btn-xs" onclick="split_modal.showModal()">split</button>
-      
-      <button class="btn btn-primary btn-xs" onclick="inp_int_modal.showModal()">number input</button>
-      <button class="btn btn-primary btn-xs" onclick="quit_modal.showModal()">quit</button>
-      <button class="btn btn-primary btn-xs" onclick="if_else_modal.showModal()">if / else</button>
-      <button class="btn btn-primary btn-xs" onclick="append_modal.showModal()">append to a list</button>
     </p>
   </div>
 </div>
+
+<div class="collapse collapse-plus bg-base-200" id="input_modal_section">
+  <input type="checkbox" class="peer" /> 
+  
+  <div class="collapse-title text-xl font-medium">
+    Task 2 - Adding BitMon
+  </div>
+  <div class="collapse-content"> 
+    <p>
+      You are now adding new BitMon to the BitDex.
+    </p>
+      
+    <ul class="list-disc p-2">
+      <li>Ask the user for the name and further details of each new Bitmon></li>
+      <li>Open the <code>bitmon.txt</code> file in append mode (a).</li>
+      <li>Write the data into the file</li>
+    </ul>
+
+    <p>
+      tips on how to complete the tasks.
+      <br>
+      
+      <button class="btn btn-primary btn-xs" onclick="inp_int_modal.showModal()">number input</button>
+      <button class="btn btn-primary btn-xs" onclick="input_modal.showModal()">input</button>
+      <button class="btn btn-primary btn-xs" onclick="open_modal.showModal()">open()</button>
+      <button class="btn btn-primary btn-xs" onclick="read_modal.showModal()">read()</button>
+      <button class="btn btn-primary btn-xs" onclick="write_modal.showModal()">write()</button>
+    </p>
+  </div>
+</div>
+
+<div class="collapse collapse-plus bg-base-200" id="input_modal_section">
+  <input type="checkbox" class="peer" /> 
+  
+  <div class="collapse-title text-xl font-medium">
+    Task 3 - Removing BitMon
+  </div>
+  <div class="collapse-content"> 
+    <p>
+      You are now deleting BitMon from the BitDex.
+    </p>
+      
+    <ul class="list-disc p-2">
+      <li>Ask the user for the name of a Bitmon></li>
+      <li>Open the <code>bitmon.txt</code> file in append mode (a).</li>
+      <li>Write the data into the file</li>
+    </ul>
+
+    <p>
+      tips on how to complete the tasks.
+      <br>
+      
+      <button class="btn btn-primary btn-xs" onclick="input_modal.showModal()">input</button>
+      <button class="btn btn-primary btn-xs" onclick="index_modal.showModal()">open()</button>
+      
+    </p>
+  </div>
+</div>
+{% include python_modals.html  %}
