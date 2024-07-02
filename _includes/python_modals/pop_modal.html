@@ -1,0 +1,62 @@
+<dialog id="pop_modal" class="modal">
+    <div class="modal-box">
+        <h3 class="font-bold text-lg">split</h3>
+        <p class="py-4">
+            The <code class="text-accent">pop()</code> method will remove an item from a list.
+            <br>By default with no argument, it will remove the last time in the list.
+            <br>With an argument, it will remove the index item of the number given.
+        </p>
+                
+        <p>
+            Without an argument
+            <div class="flex flex-row gap-1 flex-start space-y-1 ">
+                <div class="basis-1/2 text-xs mr-1 mb-1">
+                    <div class="mockup-window border bg-base-300">
+                        <pre class="bg-base-200">
+                            <code>
+veg = ["carrot","tomato","lettuce"]
+veg.pop()
+print(veg)
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="basis-1/2 text-xs">
+                    <div class="mockup-code">
+                        <pre data-prefix=">"><code>["carrot","tomato"]
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+            
+        </p>
+         
+        
+        <p>
+            With an argument
+            <div class="flex flex-row gap-1 flex-start space-y-1 ">
+                <div class="basis-1/2 text-xs mr-1 mb-1">
+                    <div class="mockup-window border bg-base-300">
+                        <pre class="bg-base-200">
+                            <code>
+veg = ["carrot","tomato","lettuce"]
+veg.pop(1)
+print(veg)
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="basis-1/2 text-xs">
+                    <div class="mockup-code">
+                        <pre data-prefix=">"><code>["carrot","lettuce"]
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+            
+        </p>
+    </div>
+    <form method="dialog" class="modal-backdrop">
+      <button>close</button>
+    </form>
+</dialog>
