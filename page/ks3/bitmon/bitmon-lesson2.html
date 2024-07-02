@@ -22,7 +22,7 @@ layout: default
     <li>
       <span class="inline-flex gap-2 items-center">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="w-4 h-4 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-        Lesson 1
+        Lesson 2
       </span>
     </li>
   </ul>
@@ -30,4 +30,37 @@ layout: default
 
 <div class="flex justify-center items-center">
   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQoYjlRAkOOtJ3L7WuKqyk0cKLeSkoBcxeWsqvvh8Yo8h8Cx6ZlxoqxMQA4KOJ3-q4Vl4_rdR0S0iZS/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+<div class="collapse collapse-plus bg-base-200" id="input_modal_section">
+  <input type="checkbox" class="peer" /> 
+  
+  <div class="collapse-title text-xl font-medium">
+    Task 1 - Finding BitMon
+  </div>
+  <div class="collapse-content"> 
+    <p>
+      You now need to make changes to the code you had seen above. Fork the following 
+      <a class="text-error" href="https://firewalledreplit.com/@bitFez/BitMon-Profiles-2" target="_blank">replit code</a> 
+      and make the changes to reflect the points below.
+    </p>
+      
+    <ul class="list-disc p-2">
+      <li>Ask the user for the name of Bitmon they are searching for</li>
+      <li>Run a loop splitting the data into individual variables</li>
+      <li>While checking if the individual line contains the Bitmon that is being searched for</li>
+    </ul>
+
+    <p>
+      tips on how to complete the tasks.
+      <br>
+      <button class="btn btn-primary btn-xs" onclick="input_modal.showModal()">input</button>
+      <button class="btn btn-primary btn-xs" onclick="split_modal.showModal()">split</button>
+      
+      <button class="btn btn-primary btn-xs" onclick="inp_int_modal.showModal()">number input</button>
+      <button class="btn btn-primary btn-xs" onclick="quit_modal.showModal()">quit</button>
+      <button class="btn btn-primary btn-xs" onclick="if_else_modal.showModal()">if / else</button>
+      <button class="btn btn-primary btn-xs" onclick="append_modal.showModal()">append to a list</button>
+    </p>
+  </div>
 </div>

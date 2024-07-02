@@ -5,10 +5,17 @@ layout: code-layout
 <h1 class="text-center text-xl"> Code test </h1>
 <br>
 
-<pre>
-name = "Ringo"
+<div class="f-container">
+<div class="mockup-window bg-base-300 border">
+    <div class="bg-base-200 px-4 py-2">
+        <pre>
+<code>name = "Ringo"
 msg = f"Hello, {name}!"
-print(msg)
-</pre>
-
-<codapi-snippet engine="wasi" sandbox="python" editor="basic" init-delay="500"></codapi-snippet>
+print(msg)</code>
+        </pre>
+    </div>
+</div>
+</div>
+<div class="f-container">
+    <codapi-snippet engine="wasi" sandbox="python" editor="basic" init-delay="500"></codapi-snippet>
+</div>
