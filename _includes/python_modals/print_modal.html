@@ -1,20 +1,22 @@
-<dialog id="write_modal" class="modal">
+<dialog id="print_modal" class="modal">
     <div class="modal-box">
-        <h3 class="font-bold text-lg">Write</h3>
+        <h3 class="font-bold text-lg">Print</h3>
         <p class="py-4">
-            The <code class="text-accent">write()</code> function writes a line to a file.
-            
+            <code class="text-accent">print()</code> is a Python function for displaying text on the screen.
+            Anything between the parenthesis is <i>printed</i> on the screen. <br>
+            However! Python can only handle one datatype at a time. (see casting or f-strings for more info) <br>
+            You can print any datatype. 
         </p>
         <p>
             
             <div class="flex flex-col gap-1 md:flex-row md:gap-1">
                 <div class="basis-1/2 md:basis-full text-xs mr-1 mb-1">
                     <div class="mockup-window border bg-base-300">
-                        <pre class="bg-base-200">
+                        <pre class="bg-base-200 px-1">
                             <code>
-                                with open("filename.txt", "a") as file:
-                                    content = "A line of text.\n"
-                                    file.write(content)
+                                print("Hello world!")
+                                print(2+2) # calculates a result!
+                                
                             </code>
                         </pre>
                     </div>
@@ -23,9 +25,8 @@
                     <div class="mockup-window border bg-base-300">
                         <pre class="bg-base-200">
                             <code>
-                                file = open("filename.txt", "a")
-                                file.write(content)
-                                file.close()
+                                Hello World!
+                                4
                             </code>
                         </pre>
                     </div>
