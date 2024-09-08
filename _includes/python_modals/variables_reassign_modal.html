@@ -1,0 +1,45 @@
+<dialog id="variables_reassign_modal" class="modal">
+    <div class="modal-box">
+        <h3 class="font-bold text-lg">Re-assigning Variables</h3>
+        <img src="/assets/modals/variable_diagram.svg" alt="">
+        <p class="py-4">
+            There are some golden rules when assigning <br>
+            <ol>
+                <li>Variable names cannot take the name of a python reserved keyword such as <code class="text-accent">print</code></li>
+                <li>The name goes on the left ⬅ & the value goes on the right ➡</li>
+                <li>Just use 1 <code class="text-accent">=</code>. Remember that <code class="text-accent">==</code> is a comparative operator.</li>
+                <li>Variable names cannot have spaces.</li>
+            </ol>
+            
+        </p>
+        <p>
+            
+            <div class="flex flex-row gap-1 flex-start">
+                <div class="basis-1/2 text-xs mr-1 mb-1">
+                    <div class="mockup-window border bg-base-300">
+                        <pre class=" bg-base-200">
+                            <code>
+score = 0
+print(score)
+
+score = 1
+print(score)
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="basis-1/2 text-xs"></div>
+                    <div class="mockup-code">
+<pre data-prefix=">"><code>0</code></pre>
+<pre data-prefix=">"><code>1</code></pre>
+                    </div>
+                </div>
+            </div>
+            
+        </p>
+                   
+    </div>
+    <form method="dialog" class="modal-backdrop">
+      <button>close</button>
+    </form>
+</dialog>
