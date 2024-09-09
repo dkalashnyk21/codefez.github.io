@@ -1,11 +1,13 @@
-<dialog id="print_modal" class="modal">
+<dialog id="casting_modal" class="modal">
     <div class="modal-box px-1">
-        <h3 class="font-bold text-lg px-3">Print</h3>
+        <h3 class="font-bold text-lg px-3">Casting</h3>
         <p class="py-4 px-3">
-            <code class="text-accent">print()</code> is a Python function for displaying text on the screen.
-            Anything between the parenthesis is <i>printed</i> on the screen. <br>
-            However! Python can only handle one datatype at a time. (see casting or f-strings for more info) <br>
-            You can print any datatype. 
+            Python can only handle one type of data at a time. Casting must be used in order to combine a second datatype.
+            
+<br><pre><code>str()</code></pre> converts data into a string datatype
+<br><pre><code>int()</code></pre> converts data into a integer datatype
+<br><pre><code>float()</code></pre> converts data into a real/float datatype
+
         </p>
         <p>
             
@@ -14,8 +16,9 @@
                     <div class="mockup-window border bg-base-300">
                         <pre class="bg-base-200 px-1">
                             <code>
-print("Hello world!")
-print(2+2) # calculates a result!
+data_a = "Jessica"
+data_b = 35
+print(data_a + " is " + str(data_b) + " years old")
                             </code>
                         </pre>
                     </div>
@@ -24,8 +27,7 @@ print(2+2) # calculates a result!
                     <div class="mockup-code border">
                         <pre class="px-1">
                             <code>
-Hello World!
-4
+Jessica is 35 years old
                             </code>
                         </pre>
                     </div>
