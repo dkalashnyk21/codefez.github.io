@@ -9,30 +9,26 @@
             Notice the 2 examples below have 2 arguments. The filename and then the access mode.
         </p>
         <p>
-            <div class="flex flex-row gap-1 flex-start space-y-1 ">
-                <div class="basis-1/2 text-xs mr-1 mb-1">
+            <div class="flex-start ">
+                <div class="text-xs mr-1 mb-1">
                     <div class="mockup-window border bg-base-300">
-                        <pre class=" bg-base-200">
-                            <code>
-# The open file is assigned to a variable
+                        <pre class="bg-base-200 px-4 pt-4">
+<code class="language-python"># The open file is assigned to a variable
 file = open("filename.txt", "r")
 
 # Opened files should also be closed.
-file.close()
-                            </code>
+file.close()</code>
                         </pre>
                     </div>
                 </div>
 
-                <div class="basis-1/2 text-xs mr-1 mb-1">
+                <div class="text-xs mr-1 mb-1">
                     <div class="mockup-window border bg-base-300">
-                        <pre class=" bg-base-200">
-                            <code>
-""" with this method, there is no need to 
+                        <pre class=" bg-base-200 px-4 pt-4">
+<code>""" with this method, there is no need to 
 close the file. """
 with open("filename.txt", "r") as file:
-    # add instructions here
-                            </code>
+    # add instructions here</code>
                         </pre>
                     </div>
                 </div>
