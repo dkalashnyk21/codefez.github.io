@@ -6,27 +6,25 @@
             
         </p>
         <p>
-            
-            <div class="flex flex-col gap-1 md:flex-row md:gap-1">
-                <div class="basis-1/2 md:basis-full text-xs mr-1 mb-1">
+            <span class="text-lg">Method 1</span><br>
+            <div class="flex-start">
+                <div class="text-xs mr-1 mb-1">
                     <div class="mockup-window border bg-base-300">
-                        <pre class="bg-base-200">
-                            <code>
-                                with open("filename.txt", "a") as file:
-                                    content = "A line of text.\n"
-                                    file.write(content)
-                            </code>
+                        <pre class="bg-base-200 px-4 pt-4">
+<code class="language-python">with open("filename.txt", "a") as file:
+    content = "A line of text.\n"
+    file.write(content)</code>
                         </pre>
                     </div>
-                </div>
-                <div class="basis-1/2 md:basis-full text-xs mr-1 mb-1">
+                </div> <br>
+                <span class="text-lg">Method 2</span><br>
+                <div class="text-xs mr-1 mb-1">
                     <div class="mockup-window border bg-base-300">
-                        <pre class="bg-base-200">
-                            <code>
-                                file = open("filename.txt", "a")
-                                file.write(content)
-                                file.close()
-                            </code>
+                        <pre class="bg-base-200 px-4 pt-4">
+<code class="language-python">file = open("filename.txt", "a")
+content = "A line of text.\n"
+file.write(content)
+file.close()</code>
                         </pre>
                     </div>
                 </div>
