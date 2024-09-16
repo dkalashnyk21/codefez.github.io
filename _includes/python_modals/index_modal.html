@@ -1,28 +1,26 @@
 <dialog id="index_modal" class="modal">
     <div class="modal-box">
-        <h3 class="font-bold text-lg">quit</h3>
+        <h3 class="font-bold text-lg">Index</h3>
         <p class="py-4">
             The <code class="text-accent">index()</code> method will find the position of the first occurance of an item in a list.
             <br>Sometimes it's easier to find the position using a for loop and not the index method. See 2nd example.
         </p>
                 
         <p>
-            
-            <div class="flex flex-row gap-1 flex-start space-y-1 ">
-                <div class="basis-1/2 text-xs mr-1 mb-1">
+            First Example <br>
+            <div class="flex-start">
+                <div class="text-xs mr-1 mb-1">
                     <div class="mockup-window border bg-base-300">
-                        <pre class="bg-base-200">
-                            <code>
-items = ["apple", "banana", "kiwi"]
+                        <pre class="bg-base-200 px-4 pt-4">
+<code class="language-python">items = ["apple", "banana", "kiwi"]
 pos = items.index("banana")
-print(f"position of banana is {pos}.)
-                            </code>
+print(f"position of banana is {pos}.)</code>
                         </pre>
                     </div>
                 </div>
-                <div class="basis-1/2 text-xs">
+                <div class="text-xs">
                     <div class="mockup-code">
-                        <pre data-prefix=">"><code>position of banana is 1.</code></pre>
+                        <pre data-prefix=">">position of banana is 1.</pre>
                     </div>
                 </div>
             </div>
@@ -30,24 +28,22 @@ print(f"position of banana is {pos}.)
         </p>
 
         <p>
-            
-            <div class="flex flex-row gap-1 flex-start space-y-1 ">
-                <div class="basis-1/2 text-xs mr-1 mb-1">
+            Second Example <br>
+            <div class="flex-start ">
+                <div class="text-xs mr-1 mb-1">
                     <div class="mockup-window border bg-base-300">
-                        <pre class="bg-base-200">
-                            <code>
-items = ["apple", "banana", "kiwi"]
+                        <pre class="bg-base-200 px-4 pt-4">
+<code>items = ["apple", "banana", "kiwi"]
 target = "banana"
 for pos in range(0, len(items)):
     if target == fruit[pos]:
-        print(f"position of {target} is {pos}.)
-                            </code>
+        print(f"position of {target} is {pos}.)</code>
                         </pre>
                     </div>
                 </div>
-                <div class="basis-1/2 text-xs">
+                <div class="text-xs">
                     <div class="mockup-code">
-                        <pre data-prefix=">"><code>position of banana is 1.</code></pre>
+                        <pre data-prefix=">">position of banana is 1.</pre>
                     </div>
                 </div>
             </div>
