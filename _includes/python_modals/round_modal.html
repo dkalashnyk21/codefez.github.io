@@ -1,0 +1,44 @@
+<dialog id="round_modal" class="modal">
+    <div class="modal-box">
+        <h3 class="font-bold text-lg">Round</h3>
+        <p class="py-4">
+            Rounding is used to display a numerical value to it's nearest integer.
+            For example 5.3 can be rounded to 5 or 3.333333333333 can be rounded <br>
+            to 3.33
+
+            by default the <span class="text-accent">round()</span> method will <br>
+            round to 2 decimal places unless specified.
+        </p>
+                
+        <p>
+            
+            <div class="flex-start ">
+                <div class="text-xs mr-1 mb-1">
+                    <div class="mockup-window border bg-base-300">
+                        <pre class="bg-base-200 px-4 pt-4">
+<code class="language-python"># Rounding to the nearest integer with no decimal places.
+print(round(10/3,0)) 
+# we can also use the int function to remove the decimal point.
+print(int(round(10/3,0)))
+
+# Rounding to 2 decimal places
+print(round(10/3,2))</code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="text-xs">
+                    <div class="mockup-code">
+                        <pre data-prefix=">">3.0</pre>
+                        <pre data-prefix=">">3</pre>
+                        <pre data-prefix=">">3.33</pre>
+                    </div>
+                </div>
+            </div>
+            
+        </p>
+                   
+    </div>
+    <form method="dialog" class="modal-backdrop">
+      <button>close</button>
+    </form>
+</dialog>
