@@ -10,6 +10,7 @@
 - [ ] Sorting Ternary statements
 - [ ] input float
 - [ ] comparative operators
+- [ ] try / except blocks
 
 ## string methods
 - [ ] is upper / lower
